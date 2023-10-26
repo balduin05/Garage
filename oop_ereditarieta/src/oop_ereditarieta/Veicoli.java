@@ -38,6 +38,7 @@ public class Veicoli {
 	public void inserimento_automobile() {
 		if(veicoli_inseriti < dim) {
 			Automobile a = new Automobile();
+			System.out.println("Ciaooo");
 
 			System.out.println();
 			System.out.println("Inserire automobile " + (veicoli_inseriti + 1) + ": ");
